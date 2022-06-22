@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./stars-3750824.png);
+    /* background-color: black;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blob {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.blob:nth-child(2) {
+    filter: blur(50px);
+}
